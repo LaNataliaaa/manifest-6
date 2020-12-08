@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- remotes -->
+
+    <remote name="caf"
+            fetch="https://source.codeaurora.org/quic/la/"
+            review="codeaurora.org" />
+
+    <remote name="aosp"
+            fetch="https://android.googlesource.com"
+            review="https://android-review.googlesource.com/"
+            revision="refs/tags/android-11.0.0_r17" />
+
+    <remote name="guacamole"
+            fetch="https://github.com/oneplus7pro-caf"
+            revision="A11" />
+
+    <remote name="opengapps"
+            fetch="https://github.com/opengapps/" />
+
+    <remote name="opengapps-gitlab"
+            fetch="https://gitlab.opengapps.org/opengapps/" />
+
+    <default remote="caf"
+             revision="partner-android/r-fs-release" />
+
+    <!-- caf qssi system repos based on LA.QSSI.11.0.r1-08200.0 -->
+    <include name="qssi_system.xml" />
+
+    <!-- caf msmnile repo based on LA.UM.9.1.r1-07700-SMxxx0.0 -->
+    <include name="msmnile.xml" />
+
+    <!-- remove projects that are either obsolete or have our own custom implementation -->
+    <include name="remove.xml" />
+
+    <!-- AOSP repos -->
+    <include name="aosp.xml" />
+
+    <!-- OpenGapps eleven -->
+    <include name="gapps.xml" />
+
+</manifest>
