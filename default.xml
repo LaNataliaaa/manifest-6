@@ -33,6 +33,9 @@
     <!-- remove projects that are either obsolete or have our own custom implementation -->
     <include name="remove.xml" />
 
+    <!-- track our own repos -->
+    <include name="guacamole.xml" />
+
     <!-- AOSP repos -->
     <include name="aosp.xml" />
 
