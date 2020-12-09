@@ -1,9 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+    <!-- Build -->
+    <project path="build/make" name="build" remote="guacamole">
+        <copyfile dest="Makefile" src="core/root.mk" />
+        <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk" />
+        <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default" />
+        <linkfile dest="build/core" src="core" />
+        <linkfile dest="build/envsetup.sh" src="envsetup.sh" />
+        <linkfile dest="build/target" src="target" />
+        <linkfile dest="build/tools" src="tools" />
+    </project>
+    <project path="build/soong" name="build_soong" remote="guacamole">
+        <linkfile dest="Android.bp" src="root.bp" />
+        <linkfile dest="bootstrap.bash" src="bootstrap.bash" />
+    </project>
+
     <!-- Device -->
     <project path="device/oneplus/guacamole" name="device_oneplus_guacamole" remote="guacamole" />
 
     <!-- Kernel -->
     <project path="kernel/msm-4.14" name="kernel_msm-4.14" remote="guacamole" />
-    
+
 </manifest>
