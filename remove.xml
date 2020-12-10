@@ -39,6 +39,9 @@
     <remove-project name="platform/external/libexif" />
     <remove-project name="platform/external/libhevc" />
 
+    <remove-project name="platform/hardware/qcom/display" />
+    <remove-project name="platform/hardware/qcom/media" />
+
     <remove-project name="platform/packages/apps/Browser2" />
     <remove-project name="platform/packages/apps/Calendar" />
     <remove-project name="platform/packages/apps/Car/Calendar" />
@@ -77,6 +80,7 @@
     <remove-project name="platform/packages/modules/DnsResolver" />
 
     <remove-project name="platform/system/nfc" />
+
 
     <remove-project name="platform/vendor/opensource/audio-kernel" />
     <remove-project name="platform/vendor/qcom/thulium" />

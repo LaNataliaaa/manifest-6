@@ -18,6 +18,15 @@
     <!-- Device -->
     <project path="device/oneplus/guacamole" name="device_oneplus_guacamole" remote="guacamole" />
 
+    <!-- Hardware -->
+    <project path="hardware/qcom/display" name="hardware_qcom_display" remote="guacamole">
+        <linkfile dest="vendor/qcom/defs/product-defs/vendor/display-product.mk" src="config/display-product.mk"/>
+        <linkfile dest="vendor/qcom/defs/board-defs/vendor/display-board.mk" src="config/display-board.mk"/>
+    </project>
+    <project path="hardware/qcom/media" name="hardware_qcom_media" remote="guacamole">
+        <linkfile dest="vendor/qcom/defs/product-defs/vendor/video-product.mk" src="product.mk"/>
+    </project>
+
     <!-- Kernel -->
     <project path="kernel/msm-4.14" name="kernel_msm-4.14" remote="guacamole" />
 
