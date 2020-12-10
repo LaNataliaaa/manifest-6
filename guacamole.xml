@@ -23,6 +23,7 @@
 
     <!-- Vendor -->
     <project path="vendor/qcom/opensource/commonsys/fm" name="vendor_qcom_opensource_commonsys_fm" remote="guacamole" />
+    <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="guacamole" />
     <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="guacamole">
       <linkfile dest="vendor/qcom/defs/product-defs/vendor/vibrator_product.mk" src="vibrator-vendor-product.mk"/>
     </project>
