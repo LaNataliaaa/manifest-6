@@ -81,7 +81,6 @@
 
     <remove-project name="platform/system/nfc" />
 
-
     <remove-project name="platform/vendor/opensource/audio-kernel" />
     <remove-project name="platform/vendor/qcom/thulium" />
     <remove-project name="platform/vendor/qcom/msmnile" />
