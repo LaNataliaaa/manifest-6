@@ -34,6 +34,7 @@
 	<remove-project name="device/linaro/poplar-kernel" />
     <remove-project name="device/qcom/common" />
     <remove-project name="device/qcom/vendor-common" />
+    <remove-project name="device/qcom/qssi" />
 
     <remove-project name="kernel/msm-4.14" />
 

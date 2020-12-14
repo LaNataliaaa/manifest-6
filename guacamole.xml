@@ -21,6 +21,7 @@
         <linkfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
     </project>
     <project path="device/qcom/vendor-common" name="device_qcom_vendor-common" remote="guacamole" />
+    <project path="device/qcom/qssi" name="device_qcom_qssi" remote="guacamole" />
 
     <!-- Hardware -->
     <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="hardware_qcom_audio" remote="guacamole" />
