@@ -24,7 +24,7 @@
     <default remote="caf"
              revision="partner-android/r-fs-release" />
 
-    <!-- caf qssi system repos based on LA.QSSI.11.0.r1-08600-qssi.0 -->
+    <!-- caf qssi system repos based on LA.QSSI.11.0.r1-08800-qssi.0 -->
     <include name="qssi_system.xml" />
 
     <!-- caf msmnile repo based on LA.UM.9.1.r1-08100-SMxxx0.0 -->
