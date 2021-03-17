@@ -38,8 +38,4 @@
 
     <!-- AOSP repos -->
     <include name="aosp.xml" />
-
-    <!-- OpenGapps eleven -->
-    <include name="gapps.xml" />
-
 </manifest>
