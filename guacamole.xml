@@ -40,7 +40,6 @@
     <project path="platform_testing" name="platform_testing" remote="guacamole" />
 
     <!-- Vendor -->
-    <project path="vendor/oneplus/guacamole" name="vendor_oneplus_guacamole" remote="guacamole" />
     <project path="vendor/qcom/opensource/audio-kernel" name="vendor_qcom_opensource_audio-kernel" remote="guacamole" />
     <project path="vendor/qcom/opensource/commonsys/fm" name="vendor_qcom_opensource_commonsys_fm" remote="guacamole" />
     <project path="vendor/qcom/opensource/core-utils" name="vendor_qcom_opensource_core-utils" remote="guacamole">
@@ -58,6 +57,5 @@
       <linkfile dest="vendor/qcom/defs/product-defs/vendor/vibrator_product.mk" src="vibrator-vendor-product.mk"/>
     </project>
     <project path="vendor/qcom/opensource/wlan/qcacld-3.0" name="vendor_qcom_opensource_wlan_qcacld-3.0" remote="guacamole" />
-    <project path="vendor/qcom/sdclang" name="vendor_qcom_sdclang" remote="guacamole" />
 
 </manifest>
